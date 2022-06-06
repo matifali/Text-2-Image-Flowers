@@ -1,0 +1,1 @@
+This folder contains the dictionary to map the words in captiosn to indces.

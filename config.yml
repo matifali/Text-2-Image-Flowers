@@ -1,0 +1,24 @@
+CONFIG_NAME: 'flowers'
+DATA_DIR: './data/'      # relative to this file
+MODELS_DIR: './models/'  # relative to this file
+
+GPU_ID: -1  # GPU ID to use, Set to -1 to use CPU
+WORKERS: 1  # number of data loading workers
+
+TEST: 0  # 0: train, 1: inference, 2: test, 3: model statistics
+loss: 'hinge'  # loss function
+
+TREE:
+  BRANCH_NUM: 1
+  BASE_SIZE: 256
+
+TRAIN:
+  NF: 64            # default value is 64
+  BATCH_SIZE: 24    # default 24  reduce batch size for low memory gpus
+  MAX_EPOCH: 501    # number of epochs to train
+  NET_G: 'netG_080' # path to pretrained generator
+
+
+TEXT:
+  EMBEDDING_DIM: 256  # Size of the embedding vector
+  DAMSM_NAME: 'flowersTextEncoder.pth'   # Path to the pre-trained DAMSM model
