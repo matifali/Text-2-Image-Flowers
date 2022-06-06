@@ -1,4 +1,4 @@
-###EEE-543 Project
+#EEE-543 Project
 
 1) Set up a virtual environment
     python3 -m venv venv
