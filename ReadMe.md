@@ -6,18 +6,15 @@
     pip install -r requirements.txt
 3) Run the following command to train the model:
     python runtrain.py --cfg config.yml
-4) Download the our pretaind model from the link:
-https://drive.google.com/drive/folders/14iDDBKsjWUYArai755NiqGbRonAV5Hlp?usp=sharing
-5) Place the model in directory './models/'
-6) Opne config_test.yml and change the TEST key to appropriate value
+4) Opne config_test.yml and change the TEST key to appropriate value
    1 -- for test on the validation set
    2 -- for test on predifined cutsom captions
    3 -- for generating model summaary and architecture
-4) Run the following command to test the model:
+5) Run the following command to test the model:
     python runtime.py --cfg config_test.yml
     
     
 Credits:
-1) [Recurrent-Affine-Transformation-for-Text-to-image-Synthesis](https://arxiv.org/abs/2204.10482) 
+1) [Recurrent-Affine-Transformation-for-Text-to-image-Synthesis](https://arxiv.org/abs/2204.10482)
 2) [RAT-GAN](https://github.com/senmaoy/Recurrent-Affine-Transformation-for-Text-to-image-Synthesis)
 
