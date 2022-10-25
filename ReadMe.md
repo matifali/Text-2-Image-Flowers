@@ -1,4 +1,4 @@
-# Text 2 Image Flowers (EEE-543 Project)
+# Text 2 Image Flowers
 
 1) Set up a virtual environment
     python3 -m venv venv
