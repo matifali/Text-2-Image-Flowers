@@ -13,7 +13,8 @@
 5) Run the following command to test the model:
     python runtime.py --cfg config_test.yml
     
-    
+Note: A checpoint is avaible at https://drive.google.com/file/d/1-b1MiUPppgY9zeNQCBqvhQIJRZV0BHBa/view?usp=sharing
+
 Credits:
 1) [Recurrent-Affine-Transformation-for-Text-to-image-Synthesis](https://arxiv.org/abs/2204.10482)
 2) [RAT-GAN](https://github.com/senmaoy/Recurrent-Affine-Transformation-for-Text-to-image-Synthesis)
