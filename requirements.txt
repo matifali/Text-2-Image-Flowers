@@ -23,7 +23,7 @@ scikit-image==0.19.2
 scipy==1.8.1
 six==1.16.0
 tifffile==2022.5.4
-torch==1.11.0+cpu
+torch==1.13.1
 torchaudio==0.11.0+cpu
 torchinfo==1.6.6
 torchvision==0.12.0+cpu
