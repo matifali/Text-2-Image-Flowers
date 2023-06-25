@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 3) Run the following command to train the model:
 ```console
-python runtrain.py --cfg config.yml
+python runtime.py --cfg config.yml
 ```
 
 4) Open [`config_test.yml`](https://github.com/matifali/Text-2-Image-Flowers/blob/88adb45342dd90010d93f18565287c695b9747bd/config_test.yml#L8) and change the `TEST` key to appropriate value:
